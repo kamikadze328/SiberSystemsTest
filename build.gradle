@@ -1,0 +1,25 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.6.0'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven { url "https://maven.pkg.jetbrains.space/public/p/kotlinx-html/maven" }
+        maven { url = uri("https://maven.pkg.jetbrains.space/public/p/kotlinx-html/maven") }
+    }
+}
+
+dependencies {
+    def kotlinx_html_version = "0.6.12"
+
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.6.0'
+
+    //kotlinx-html
+    implementation "org.jetbrains.kotlinx:kotlinx-html-jvm:${kotlinx_html_version}"
+    implementation "org.jetbrains.kotlinx:kotlinx-html-js:${kotlinx_html_version}"
+    implementation "org.jetbrains.kotlinx:kotlinx-html:${kotlinx_html_version}"
+}
