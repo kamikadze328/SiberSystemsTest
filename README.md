@@ -1,4 +1,4 @@
-# SiberSystemsTest
+# Test assignment to Siber Systems
 
 There are several rectangles for which the coordinates of the upper left and lower right corners are specified. The rectangles do not overlap each other.
 
