@@ -1,8 +1,8 @@
 # SiberSystemsTest
 
-Есть несколько прямоугольников , для которых указаны координаты левого верхнего и правого нижнего углов. Прямоугльники не перекрывают друг друга.  
+There are several rectangles for which the coordinates of the upper left and lower right corners are specified. The rectangles do not overlap each other.
 
-Написать программу формирующую код html таблицы. Ячейки таблицы должны закрашиваться таким образом, чтобы при загрузке в Internet Explorer максимально точно визуально отображать взаимное расположение и относительные размеры прямоугольников.
+Write a program that generates the HTML table code. The table cells must be painted in such a way that, when loaded into Internet Explorer, they visually display the relative positions and relative sizes of the rectangles as accurately as possible.
 
-- Программа на Kotlin
-- Входные данные задаются в файле, который передаётся в качестве параметра командной строки
+- Kotlin program
+- The input data is specified in a file, which is passed as a command line parameter
